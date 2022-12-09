@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% block head %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/styles.css">
+    <title>{% block title %}Cupcakes{% endblock %}</title>
+    {% endblock %}
+</head>
+
+<body>
+    {% block content %}
+    <a href="/add-New">+ Add Cupcake</a>
+    <h1><u>Cupcakes</u></h1>
+
+    <div class="cupcake_grid">
+
+
+        {% endblock %}
+        <script src="https://unpkg.com/axios/dist/axios.js"></script>
+        <script src="static/script.js"></script>
+    </div>
+
+</body>
+
+
+</html>

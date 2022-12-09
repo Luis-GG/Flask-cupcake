@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Pacifico&family=Playfair+Display:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    position: relative;
+}
+
+.cupcake {
+    width: 100%;
+
+}
+
+h1 {
+    font-family: 'Pacifico';
+    text-align: center;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    font-size: 3rem;
+}
+
+.cupcake_grid {
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    width: min(70%);
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+image {
+    height: 500px;
+    width: 500px;
+}
+
+img {
+
+    height: 400px;
+    width: 400px;
+}
+
+
+
+.cupcake p {
+    font-family: 'Lobster Two';
+    font-size: 1.5rem;
+
+}
+
+a {
+    position: absolute;
+    top: 1rem;
+    left: 1.5rem;
+    text-decoration: none;
+    font-family: 'Lobster Two';
+    display: flex;
+    font-size: 1.4rem;
+    color: rgb(255, 159, 175);
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    margin: 5vh auto;
+    font-family: 'Lobster Two';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    width: min(40%);
+    height: 18vh;
+
+}
+
+input[type="text"] {
+    width: 200px;
+}
+
+form button {
+
+    padding: 0.2rem 1rem 0.2rem 1rem;
+    font-family: 'Lobster Two';
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(255, 159, 175);
+}
+
+p {
+
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 38%;
+}
+
+.cupcake p:nth-of-type(1) {
+    font-weight: 900;
+}

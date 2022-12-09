@@ -1,0 +1,19 @@
+{% extends "index.html" %}
+
+{% block title %}Add Cupcake{% endblock %}
+
+{% block content %}
+
+<a href="/">Home</a>
+<h1><u>Add New Cupcake</u></h1>
+
+<form action="/add-New" method="POST">
+    <p>Flavor:<input type="text" name="flavor" id=""></p>
+    <p>Size: <input type="text" name="size" id=""></p>
+    <p>Rating:<input type="text" name="rating" id=""></p>
+    <p>Image: <input type="text" name="image" id=""></p>
+    <button type="submit">Add</button>
+
+</form>
+
+{% endblock %}
